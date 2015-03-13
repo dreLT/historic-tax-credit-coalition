@@ -1,0 +1,138 @@
+body {
+  @media only screen and (max-width:600px) {
+    font-size: 97%;
+  }
+  @media only screen and (max-width:409px) {
+    font-size: 94%;
+  }
+}
+
+article {
+  @media only screen and (max-width:758px) {
+    padding: 0px 5.5% 0px 5.5%;
+  }
+}
+
+article h1 {
+  @media only screen and (max-width:600px) {
+    font-size: 2.05em;
+  }
+  @media only screen and (max-width:467px) {
+    font-size: 1.9em;
+  }
+}
+
+
+// Single Post Article Titles
+
+
+div.advocacy-news-content.single-post-container article h1 {
+  @media only screen and (max-width:735px) {
+    font-size: 2.2em;
+  }
+  @media only screen and (max-width:483px) {
+    font-size: 2.1em;
+  }
+  @media only screen and (max-width:440px) {
+    font-size: 2em;
+  }
+  @media only screen and (max-width:380px) {
+    font-size: 1.95em;
+  }
+}
+
+
+// Page Headings
+
+div.page-heading-container .page-heading {
+  @media only screen and (max-width:620px) {
+    font-size: 4.5em;
+  }
+  @media only screen and (max-width:540px) {
+    font-size: 4.3em;
+  }
+  @media only screen and (max-width:468px) {
+    font-size: 4.1em;
+  }
+  @media only screen and (max-width:415px) {
+    font-size: 3.8em;
+  }
+  @media only screen and (max-width:380px) {
+    font-size: 3.6em;
+  }
+  @media only screen and (max-width:360px) {
+    font-size: 3.4em;
+  }
+  @media only screen and (max-width:340px) {
+    font-size: 3.2em;
+  }
+  @media only screen and (max-width:320px) {
+    font-size: 3.0em;
+  }
+}
+
+// Page Heading - Take Action Page
+
+body.page-template-take-action {
+  div.page-heading-container .page-heading {
+    @media only screen and (max-width:620px) {
+      font-size: 4.1em;
+    }
+    @media only screen and (max-width:540px) {
+      font-size: 3.9em;
+    }
+    @media only screen and (max-width:468px) {
+      font-size: 3.5em;
+    }
+    @media only screen and (max-width:415px) {
+      font-size: 3.3em;
+    }
+    @media only screen and (max-width:380px) {
+      font-size: 3.1em;
+    }
+    @media only screen and (max-width:360px) {
+      font-size: 2.9em;
+    }
+    @media only screen and (max-width:340px) {
+      font-size: 2.7em;
+    }
+    @media only screen and (max-width:320px) {
+      font-size: 2.5em;
+    }
+  }
+}
+
+// Page Heading - Contact Page
+
+body.page-template-contact {
+  div.page-heading-container {
+    @media only screen and (max-width:620px) {
+      text-align: center;
+      div.page-heading {
+        padding-left: 0;
+        font-size: 4.1em;
+        @media only screen and (max-width:540px) {
+          font-size: 3.9em;
+        }
+        @media only screen and (max-width:468px) {
+          font-size: 3.5em;
+        }
+        @media only screen and (max-width:415px) {
+          font-size: 3.3em;
+        }
+        @media only screen and (max-width:380px) {
+          font-size: 3.1em;
+        }
+        @media only screen and (max-width:360px) {
+          font-size: 2.9em;
+        }
+        @media only screen and (max-width:340px) {
+          font-size: 2.7em;
+        }
+        @media only screen and (max-width:320px) {
+          font-size: 2.5em;
+        }
+      }
+    }
+  }
+}

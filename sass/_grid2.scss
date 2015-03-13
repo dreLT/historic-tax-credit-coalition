@@ -1,0 +1,162 @@
+@import "susy";
+
+$susy: (
+  math: static,
+  columns: 12,
+  column-width: 97.5px,
+  container: auto,
+  global-box-sizing: content-box,
+);
+
+$about-page: (
+  gutters: 0,
+);
+
+$join-page: (
+  gutters: 0,
+  container: 93.5%,
+);
+
+// .wrapper { 
+//   @include container;
+// }
+
+.header-container {
+  @include container;
+    .logo {
+      @include span(3 of 12);
+    }
+    .header-right {
+      @include span(9 of 12 last);
+    }
+  padding: 0 27px;
+}
+
+.home-intro-slider-container {
+  @include container;
+  .home-intro {
+    @include span(7 of 12);
+  }
+  .home-slider {
+    @include span(5 of 12 last)
+  }
+}
+
+// .home-call-to-action-container {
+//   @include with-layout(93.5%) {
+//   @include container;
+//     .home-call-to-action-text {
+//       @include span(8 of 12);
+//     }
+//     .home-call-to-action-button {
+//       @include span(4 of 12 last);
+//     }
+//   }
+// }
+
+.home-featured-articles-container {
+  @include container;
+    article:nth-of-type(1), article:nth-of-type(3) {
+      @include span(6 of 12);
+        // margin-left: 0;
+        // margin-right: 1.6%;
+    }
+    article:nth-of-type(2), article:nth-of-type(4) {
+      @include span(6 of 12 last);
+      padding-right: 67px;
+    }
+  box-sizing: content-box;
+  padding-left: 33px;
+}
+
+footer {
+  clear: both;
+  .footer-container {
+  @include container;
+    .footer-twitter-column {
+      @include span(4 of 12);
+    }
+    .footer-join-email-list-column {
+      @include span(4 of 12);
+    }
+    .footer-contact-column {
+      @include span(4 of 12 last);
+    }
+  padding: 0 41px;
+  box-sizing: content-box;
+}
+}
+
+.about-page-content-container {
+  @include container;
+    .categories-take-action-sidebar {
+      @include span(344px);
+      margin-right: 0;
+      // width: 344px;
+      // float: left;
+    }
+    .about-content {
+      @include span(751px);
+      margin-right: 0;
+      //@include bleed(0 0 0 1.671309192201%);
+    }
+    .about-content-images {
+      @include span(343px last);
+    }
+  //}
+}
+
+.advocacy-news-page-content-container {
+    @include container;
+    .categories-take-action-sidebar {
+      @include span(344px);
+    }
+    .advocacy-news-content {
+      @include span(1069px last);
+      //@include bleed(0 0 0 1.671309192201%);
+    }
+}
+
+.take-action-page-container {
+    @include container;
+    .take-action-nav-container {
+      @include span(344px);
+    }
+    .take-action-content-container {
+      @include span(1069px last);
+    }
+}
+
+.join-page-content-container {
+    @include container;
+    .join-testimonials-sidebar {
+      @include span(591px);
+      margin-right: 0;
+    }
+    .join-form-container {
+      @include span(847px last);
+      //margin-right: 0;
+    }
+  margin-left: 0;
+}
+
+.contact-page-content-container {
+  @include container;
+    .contact-page-form {
+      @include span(616px);
+    }
+    .contact-page-image {
+      @include span(657px last);
+    }
+}
+
+// .logo {
+//   @include with-layout(80%) {
+//     @include span(3 of 12); 
+//   }
+// }
+// .header-right {
+//   @include with-layout(80%) {
+//     @include span(9 of 12 last);
+//   }
+// }

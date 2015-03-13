@@ -1,0 +1,31 @@
+.contact-page-container {
+  padding: 18px 0 0 77px;
+  background-color: $site-background-offwhite;
+  position: relative;
+  .contact-page-content-container {
+    @include clearfix;
+    .contact-page-form {
+      float: left;
+      article {
+        p {
+          font-size: 1.14em;
+        }
+      }
+      h1.contact-page-heading {
+        margin-bottom: 0;
+      }
+      div#wpcf7-f129-p18-o1 {
+        margin-top: 34px;
+      }
+    }
+    img {
+      float: right;
+      margin-right: 90px;
+      margin-top: 90px;
+    }
+  }
+}
+
+// div.contact-page-image img {
+//   padding-top: 60px;
+// }

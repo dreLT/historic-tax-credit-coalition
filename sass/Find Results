@@ -1,0 +1,40 @@
+Searching 452 files for "localhost"
+
+/Applications/MAMP/htdocs/htcc/wp-content/themes/html5blank-stable/header.php:
+   50                <nav class="nav main-nav wide-nav clearfix" role="navigation">
+   51                  <ul>
+   52:                   <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://localhost:8888/htcc/about/">About</a></li>
+   53:                   <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://localhost:8888/htcc/take-action/">Take Action</a></li>
+   54:                   <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://localhost:8888/htcc/advocacy/">Advocacy</a></li>
+   55:                   <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://localhost:8888/htcc/news/">News</a></li>
+   56:                   <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://localhost:8888/htcc/join/">Join</a></li>
+   57:                   <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://localhost:8888/htcc/contact/">Contact</a></li>
+   58                  </ul>
+   59                </nav>
+   ..
+   61                <nav class="nav main-nav two-line-nav clearfix" role="navigation">
+   62                  <ul class="first-row">
+   63:                   <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://localhost:8888/htcc/about/">About</a></li>
+   64:                   <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://localhost:8888/htcc/take-action/">Take Action</a></li>
+   65:                   <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://localhost:8888/htcc/advocacy/">Advocacy</a></li>
+   66                  </ul>
+   67                  <ul class="second-row">
+   68:                   <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://localhost:8888/htcc/news/">News</a></li>
+   69:                   <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://localhost:8888/htcc/join/">Join</a></li>
+   70:                   <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://localhost:8888/htcc/contact/">Contact</a></li>
+   71                  </ul>
+   72                </nav>
+   ..
+   89                    <input type="checkbox" id="show-nav" role="button">
+   90                    <ul id="page-list">
+   91:                     <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://localhost:8888/htcc/about/">About</a></li>
+   92:                     <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://localhost:8888/htcc/take-action/">Take Action</a></li>
+   93:                     <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://localhost:8888/htcc/advocacy/">Advocacy</a></li>
+   94:                     <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://localhost:8888/htcc/news/">News</a></li>
+   95:                     <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://localhost:8888/htcc/join/">Join</a></li>
+   96:                     <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://localhost:8888/htcc/contact/">Contact</a></li>
+   97:                     <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://localhost:8888/htcc/members/">Members Area</a></li>
+   98                    </ul>
+   99                  </nav>
+
+19 matches in 1 file

@@ -1,0 +1,234 @@
+// Default Form Styles
+
+input {
+  height: 33px;
+}
+
+input, textarea {
+  padding: 0 10px;
+  font-size: 17px;
+  &:focus {
+    border: 1px solid #E06833;
+    outline: 0;
+  }
+}
+
+textarea {
+  padding: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 4px;
+  display: inline-block;
+  span.required {
+    color: red;
+  }
+}
+
+ul.form-row {
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}    
+
+
+// Join Form
+
+div#wpcf7-f93-p16-o1 form, div#wpcf7-f93-p16-o2 form {
+  ul.form-row li.form-column {
+    margin-right: 23px;
+    input {
+      width: 100%;
+    }
+  }
+  ul.form-row:first-of-type {
+    input {
+      width: 100%;
+    }
+  }
+  ul.form-row.address-suite {
+    li.address-column {
+      width: auto;
+      margin-right: 23px;
+    }
+    li.suite-column {
+      width: 93px;
+    }
+  }
+  ul.form-row.city-state-zip {
+    li.city-column {
+      width: 166px;
+    }
+    li.state-column {
+      width: 166px;
+    }
+    li.zip-column {
+      width: 109px;
+    }
+  }
+  ul.form-row.email-phone {
+    li.email-column {
+      width: 245px;
+    }
+    li.phone-column {
+      width: 170px;
+    }
+  }
+  ul.form-row.member-options-heading {
+    margin-bottom: 0;
+  }
+  ul.member-options {
+    padding: 0;
+    list-style: none;
+    margin-top: 9px;
+    margin-bottom: 0;
+    li:nth-of-type(1) {
+      margin-bottom: 0;
+      line-height: 0.5em;
+      font-weight: bold;
+      font-size: 20px;
+      span.radio {
+        position: inherit;
+      }  
+        input {
+          display: block;
+          margin-right: 20px;
+          float: left;
+          margin-bottom: 148px;
+          margin-top: 0.9%;
+        }
+        span.wpcf7-list-item-label {
+          display: block;
+          padding-right: 70px;
+          font-size: 1.1em;
+          line-height: 1.3em;
+        }
+    }   
+  }
+  ul.option-info {
+    margin-top: 9px;
+    padding-left: 54px;
+    li {
+      font-size: 1.2em;
+    }
+  }
+
+    // li:nth-of-type(2) {
+    //   height: 160px;
+    //   span.member-option2 span {
+    //     display: inline-block;
+    //     input {
+    //       display: block;
+    //       margin-right: 20px;
+    //       float: left;
+    //       margin-bottom: 104px;
+    //       margin-top: 31px;
+    //     }
+    //     span.wpcf7-list-item-label {
+    //       display: block;
+    //       padding-right: 70px;
+    //     }
+    //   }
+    // }
+  }
+
+// Contact Form
+
+div#wpcf7-f129-p18-o1 {
+  li {
+    width: 100%;
+  }
+  ul.form-row:nth-of-type(1), ul.form-row:nth-of-type(2) {
+    width: 60%;
+  } 
+  textarea.contact-message {
+    width: 137%;
+    height: 260px;
+  }
+  input {
+    padding-right: 0;
+  }
+}
+
+
+//   p:nth-of-type(2) {
+//     display: inline-block;
+//     width: 40%;
+//     margin-right: 28px;
+//   }
+//   p:nth-of-type(3) {
+//     display: inline-block;
+//     width: 11%
+//   }
+//   p {
+//     display: inline-block;
+//     margin: 0;
+//     label {
+//       font-weight: bold;
+//       display: inline-block;
+//       margin-bottom: 15px;
+//       span {
+//         color: #F51705;
+//         input {
+//           width: 100%;
+//         }
+//       }
+//     }
+//     span.address {
+//       display: inline-block;
+//       input {
+//         width: 100%;
+//       }
+//     }
+//     span.suite {
+//       display: inline-block;
+//       input {
+//         width: 100%;
+//       }
+//     }
+//   }
+// }
+
+// // .categories-take-action-sidebar {
+// //   div.advocacy-search {
+// //     padding: 13px 0;
+// //     line-height: 2.4em;
+// //     input.search-input {
+// //       height: 33px;
+// //       padding: 0 10px;
+// //       width: 63%;
+// //       &:focus {
+// //         border: 1px solid #E06833;
+// //         //box-shadow: 0 0 1px $htcc-orange;
+// //       }
+// //     }
+// //     button {
+// //       margin-right: 4px;
+// //       width: 90px;
+// //       height: 30px;
+// //       color: #fff;
+// //       background-color: #ea520f;
+// //       border: none;  
+// //     }
+// //     label {
+// //       padding-right: 10px;
+// //     }
+// //     input.date-range-input {
+// //       width: 114px;
+// //       height: 39px;
+// //     }
+// //   }
+// //   div.advocacy-date-range {
+// //     padding-top: 21px;
+// //     font-size: 24px;
+// //     font-weight: bold;
+// //   }
+// //   div.advocacy-search {
+// //     padding-top: 0;
+// //     padding-right: 23px;
+// //     background-color: rgba(234, 230, 224, 0.82);
+// //   }

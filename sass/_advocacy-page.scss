@@ -1,0 +1,113 @@
+div.advocacy-news-content {
+  background-color: $site-background-offwhite;
+  padding-top: 2px;
+  //float: right;
+  //width: 1093px;
+  //position: absolute;
+  // left: 344px;
+  // width: 76.130828114127%;
+  margin-top: 31px;
+  float: left;
+  article.listed-article {
+    padding-left: 43px;
+    width: 852px;
+    margin-bottom: 4%;  
+  }
+  article {
+    padding-left: 54px;
+    padding-right: 0;
+    //margin-bottom: 15%;
+    h1 {
+      font-size: 37px;
+    }
+    h2 {
+      font-size: 1.75em;
+      margin-top: 0;
+      margin-bottom: 8px;
+      a {
+        color: $htcc-orange;
+      }
+    }
+    span.date {
+      margin-right: 15px;
+    }
+    span.category, span.date, span.category a {
+      color: #444;
+      font-size: 1.17em;
+    }
+    span.category a {
+      color: $htcc-orange;
+      font-size: 1.065em;
+    }
+    h1.about-section-title {
+      font-size: 36px;
+      margin-top: 26px;
+      font-weight: 700;
+    }
+    p {
+      line-height: 1.75em;
+      font-size: 1.2em;
+      margin-top: 13px;
+      text-align: justify;
+      a {
+        color: $htcc-orange;
+        //font-style: italic;
+      }
+    }
+    ul {
+      li {
+        font-size: 1.2em;
+        margin-top: 14px;
+      }
+    }
+  }
+}
+
+body.archive.tax-news-categories {
+  article.news-items.listed-article {
+    width: 882px;
+  }
+}
+
+div.advocacy-news-content.single-post-container {
+  margin-top: 0;
+  padding-top: 16px;
+}
+
+// Rename class to something more global
+aside.sidebar-advocacy {
+  width: 344px;
+  float: left;
+  ul {
+    margin-right: 0;
+    width: 100%;
+  }
+  div.advocacy-search {
+    width: 100%;
+  }
+  div.take-action-list {
+    margin-right: 0;
+  }
+}
+
+footer {
+  clear: both;
+}
+
+// Hide mobile layout
+
+div.advocacy-news-content.mobile, aside.categories-take-action-sidebar.sidebar-advocacy.mobile, aside.categories-take-action-sidebar.sidebar-members.mobile {
+  display: none;
+}
+
+// Hide "Current browsing" heading
+
+div.advocacy-news-content.mobile {
+  h1.current-category {
+    display: none;
+  }
+}
+
+// body.advocacy li.all-articles-tab {
+//   background-color: rgba(252, 250, 249, 0.6);
+// }

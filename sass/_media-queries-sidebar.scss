@@ -1,0 +1,47 @@
+body.page-template-about-advocacy-news {
+  @media only screen and (max-width:1423px) {  
+    .categories-take-action-sidebar {
+      ul.categories-list {
+        li {
+          line-height: 1.2em;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      }
+      @media only screen and (max-width:1307px) {
+        ul.categories-list {
+          text-align: center;
+          li {
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+        }
+        div.advocacy-search {
+          padding: 16px 20px 28px 20px;
+          text-align: center;
+        }
+        div.take-action-list {
+          ul.take-action-list-items {
+            a li {
+              font-size: 23px;
+              padding-left: 14px;
+            }
+          }
+        }
+      }
+      @media only screen and (max-width:1355px) {
+        div.take-action-list {
+          ul.take-action-list-items {
+            padding-left: 0px;
+            a li {
+              background: none;
+              text-align: center;
+              padding-left: 17px;
+              padding-right: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

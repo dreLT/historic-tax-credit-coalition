@@ -1,0 +1,22 @@
+article.advocacy-items, article.news-items {
+  h1 {
+    margin-top: 21px;
+  }
+  span.date, span.author {
+    color: #444;
+    font-size: 1.17em;
+  }
+  p:first-of-type {
+    margin-top: 17px;
+  }
+  a {
+    color: $htcc-orange;
+  }
+}
+
+div.single-post-container {
+  article {
+    padding-left: 64px;
+    width: 896px;
+  }
+}

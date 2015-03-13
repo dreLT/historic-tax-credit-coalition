@@ -1,0 +1,115 @@
+body.page-id-243 div.header-image-container {
+  height: 663px;
+}
+
+div.take-action-page-container {
+  background: linear-gradient(to right, #26965A, #26965A 23.83%, #f0efee 23.83%);
+}
+
+body.page-template-take-action {
+  ul.take-action-list-items {
+    margin: 0;
+    //padding-top: 27px;
+    padding-left: 0;
+    a {
+      display: block;
+      width: 100%;
+      padding: 18px 0 18px 22px;
+      &:hover {
+        background-color: #27A965; 
+      }
+      li {
+        margin: 0;
+        &:hover {
+          color: #ededed;
+        }
+      }
+    }
+  }
+}
+
+body.page-template-take-action.write-your-representative-and-senators {
+  ul.take-action-list-items {
+    a:nth-child(1) {
+      background-color: #27A965;
+    }
+  }
+}
+body.page-template-take-action.ask-your-representative-and-senators-to-visit-an-htc-project {
+  ul.take-action-list-items {
+    a:nth-child(2) {
+      background-color: #27A965;
+    }
+  }
+}
+body.page-template-take-action.visit-your-congressional-delegation-in-washington-d-c {
+  ul.take-action-list-items {
+    a:nth-child(3) {
+      background-color: #27A965;
+    }
+  }
+}
+body.page-template-take-action.write-an-op-ed-article-or-letter-to-the-editor {
+  ul.take-action-list-items {
+    a:nth-child(4) {
+      background-color: #27A965;
+    }
+  }
+}
+
+ul.take-action-nav {
+  background-color: rgba(38, 150, 90, 0.9);
+  line-height: 3.11em;
+  padding: 0;
+  padding-bottom: 0px;
+  margin: 0;
+  text-align: right;
+  li {
+    line-height: 1.6em;
+    font-size: 23px;
+    list-style-type: none;
+    padding: 11px 30px 11px 50px;
+    font-weight: bold;
+    &:hover, &.current-menu-item {
+      background-color: #EA520F;
+    }
+    a {
+      color: #FFF;
+    }
+  }
+}
+
+// div.take-action-list {
+//   margin-right: 1093px;
+// }
+
+div.take-action-content-container {
+  background-color: $site-background-offwhite;
+  padding-top: 2px;
+  // padding-top: 6px;
+  article {
+    padding: 0px 194px 0px 23px;
+    //text-align: justify;
+    h2 {
+      font-size: 28px;
+      margin-top: 27px;
+      margin-bottom: 8px;
+      a {
+        color: $htcc-orange;
+      }
+    }
+    h1.take-action-subpage-title {
+      font-size: 36px;
+      margin-top: 26px;
+      font-weight: 700;
+    }
+    p {
+      line-height: 1.75em;
+      margin-top: 13px;
+      a {
+        color: $htcc-orange;
+        //font-style: italic;
+      }
+    }
+  }
+}

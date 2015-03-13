@@ -1,0 +1,36 @@
+// Membership Form Submit Button
+
+div#wpcf7-f93-p16-o1 input.wpcf7-submit {
+    background-color: $htcc-green;
+    background-image: linear-gradient(to top, #1D7949 2%, #26965B);
+    color: #fff;
+    display: block;
+    font-size: 27px;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: 37px;
+    width: 150px;
+    height: 62px;
+    border: none;
+    &:hover {
+        background-image: linear-gradient(to top, #1A6F43 2%, #248C55);
+    }
+  }
+
+// Contact Form Submit Button
+
+div#wpcf7-f129-p18-o1 input.wpcf7-submit {
+    background-image: linear-gradient(to top, #1D7949 2%, #26965B);
+    background-color: $htcc-green;
+    color: #fff;
+    display: block;
+    font-size: 23px;
+    text-align: center;
+    width: 120px;
+    height: 52px;
+    border: none;
+    padding-left: 0;
+    &:hover {
+      background-image: linear-gradient(to top, #1A6F43 2%, #248C55);
+    }
+  }

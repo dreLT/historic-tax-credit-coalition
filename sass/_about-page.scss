@@ -1,0 +1,61 @@
+body.page-template-about-advocacy-news {
+  //background-image: linear-gradient(to left, #f0efee 1099px, #26965a 1px);
+  div.background {
+    background-image: linear-gradient(to left, #f0efee 1096px, #26965a 1px);
+    position: relative;
+    //z-index: -100;
+  }
+  div.take-action-list {
+    margin-right: 1093px;
+  }
+}
+
+.about-page-content-container {
+  //background: linear-gradient(to right, #26965A, #26965A 23.825%, #f0efee 22.33%);
+  position: relative;
+}
+
+.about-content, .about-content-images {
+  background-color: $site-background-offwhite;
+}
+
+.about-content-images {
+  padding-top: 83px;
+  width: 342px;
+  float: right;
+  div {
+    width: 344px;
+    margin-bottom: 33px;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.about-content {
+  width: 1093px;
+  float: right;
+  article {
+    padding: 0px 37px 0px 43px;
+    text-align: justify;
+    width: 751px;
+    h1.about-section-title {
+      //font-size: 2.25em;
+      //margin-top: 26px;
+      font-weight: 700;
+      text-align: left;
+      padding-top: 3%;
+    }
+    p {
+      line-height: 1.64em;
+    }
+    table, p, ul li {
+      font-size: 1.1875em;
+    }
+    p.next-page {
+      display: none;
+      font-size: 1.4em !important;
+      text-align: left;
+    }
+  }
+}
