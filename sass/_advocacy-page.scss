@@ -1,11 +1,6 @@
 div.advocacy-news-content {
   background-color: $site-background-offwhite;
   padding-top: 2px;
-  //float: right;
-  //width: 1093px;
-  //position: absolute;
-  // left: 344px;
-  // width: 76.130828114127%;
   margin-top: 31px;
   float: left;
   article.listed-article {
@@ -16,7 +11,6 @@ div.advocacy-news-content {
   article {
     padding-left: 54px;
     padding-right: 0;
-    //margin-bottom: 15%;
     h1 {
       font-size: 37px;
     }
@@ -51,7 +45,6 @@ div.advocacy-news-content {
       text-align: justify;
       a {
         color: $htcc-orange;
-        //font-style: italic;
       }
     }
     ul {
@@ -74,7 +67,7 @@ div.advocacy-news-content.single-post-container {
   padding-top: 16px;
 }
 
-// Rename class to something more global
+// Rename this class to something more global
 aside.sidebar-advocacy {
   width: 344px;
   float: left;
@@ -95,19 +88,13 @@ footer {
 }
 
 // Hide mobile layout
-
 div.advocacy-news-content.mobile, aside.categories-take-action-sidebar.sidebar-advocacy.mobile, aside.categories-take-action-sidebar.sidebar-members.mobile {
   display: none;
 }
 
-// Hide "Current browsing" heading
-
+// Hide "Currently browsing" heading
 div.advocacy-news-content.mobile {
   h1.current-category {
     display: none;
   }
 }
-
-// body.advocacy li.all-articles-tab {
-//   background-color: rgba(252, 250, 249, 0.6);
-// }

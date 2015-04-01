@@ -4,14 +4,8 @@ body.home {
   @media only screen and (max-width:1030px) {
     div.home-intro-slider-container {
       height: 378px;
-      //margin-bottom: 12%;
-      //margin-bottom: 108px;
-      //display: none;
-      // height: 1px;
-      // margin-bottom: 6%;
       div.home-slider-tablet {
         display: block;
-        //height: auto;
         .master-slider-parent.ms-parent-id-9 {
           //height: auto;
         }
@@ -30,12 +24,6 @@ body.home {
   @media only screen and (max-width:695px) {
     div.home-intro-slider-container {
       height: 335px;
-      //margin-bottom: 96px;
-      //font-size: 90%;
-      //margin-bottom: 108px;
-      //display: none;
-      // height: 1px;
-      // margin-bottom: 6%;
       div.home-slider-phone {
         display: block;
         //height: auto;
@@ -87,53 +75,6 @@ body .wrapper header {
       }
     }
   }
-
-  // @media only screen and (max-width:1427px) {
-  //   div.nav-container {
-      
-  //     nav.main-nav {
-  //       margin-left: 59px;
-  //       margin-top: 15px;
-  //       margin-right: 0;
-  //       width: 491px;
-  //       float: left;
-  //       ul.first-row {
-  //         margin-bottom: 9px;
-  //         margin-right: 0;
-  //         li {
-  //           margin-right: 42px;
-  //         }
-  //       }
-  //       ul.second-row {
-  //         margin-top: 0;
-  //       }
-  //       ul {
-  //         padding: 0;
-  //         float: none;
-  //         li {
-  //           //font-size: 26px;
-  //         }
-  //         li:last-child {
-  //           margin-right: 0;
-  //         }
-  //       }
-  //     }
-      // div.member-login-container {
-      //   height: inherit;
-      //   position: absolute;
-      //   left: 550px;
-      //   right: 0;
-      //   a.member-login {
-      //     font-size: 20px;
-      //     padding: 9px 0px 11px 0px;
-      //     display: block;
-      //     width: 165px;
-      //     text-align: center;
-      //     margin: 35px auto;
-      //   }
-      // }
-  //   }
-  // }
 
   @media only screen and (max-width:1215px) {
     nav.main-nav.wide-nav {
@@ -188,50 +129,6 @@ body .wrapper header {
     }
   }
 
-        
-
-      //   position: absolute;
-      //   left: 42px;
-      //   top: 12px;
-      //   ul.first-row {
-      //     margin-bottom: 0;
-      //     margin-top: 0;
-      //     li {
-            
-      //     }
-      //   }
-      //   ul.second-row {
-      //     margin-top: 0;
-      //   }
-      //   ul {
-      //     float: left;
-      //     margin-top: 11px;
-      //     li {
-      //       font-size: 24px;
-      //       display: block;
-      //       margin-bottom: 7px;
-      //     }
-      //     li:last-child {
-            
-      //     }
-      //   }
-      // }
-      // div.member-login-container {
-      //   height: inherit;
-      //   position: absolute;
-      //   left: 380px;
-      //   right: 0;
-      //   a.member-login {
-      //     font-size: 20px;
-      //     padding: 9px 0px 11px 0px;
-      //     display: block;
-      //     width: 165px;
-      //     text-align: center;
-      //     margin: 35px auto;
-      //   }
-      // }
-  
-
   @media only screen and (max-width:986px) {
     div.member-login-container {
       display: none;
@@ -264,45 +161,8 @@ body .wrapper header {
     }
   }
 
-  // @media only screen and (max-width:835px) {
-  //   div.logo-container {
-  //     left: 0;
-  //     width: 322px;
-  //     height: 146px;
-  //     a img {
-  //       margin-left: 15px;
-  //       margin-top: 10px;
-  //       width: 287px;
-  //     }
-  //   }
-  //   div.member-login-container {
-  //     display: none;
-  //   }
-  //   nav.main-nav-mobile {
-  //     display: block;
-  //     left: 64%;
-  //     top: 19px;
-  //     position: absolute;
-  //     width: 234px;
-  //     svg {
-  //       width: 180px;
-  //       height: 89px;
-  //       path.nav-icon {
-  //         fill: #732401;
-  //       }
-  //     }
-  //     ul#page-list {
-  //       margin-top: 14px;
-  //     }
-  //   }
-  // }
-
   @media only screen and (max-width:628px) {
-    //height: 176px;
     div.logo-container {
-      // position: relative;
-      // margin: 0 auto;
-      // float: none;
       width: 310px;
       height: 140px;
       a {
@@ -314,7 +174,6 @@ body .wrapper header {
     }
     div.main-nav-mobile-container {  
       nav.main-nav-mobile {
-        //width: 174px;
         svg {
           width: 223px;
           height: 67px;
@@ -452,56 +311,6 @@ body .wrapper header {
       }
     }
   }
-    // div.main-nav-mobile-container {
-    //   background-color: inherit;
-    //   height: 49px;
-    //   z-index: -100;
-    //   nav.main-nav-mobile {
-    //     @include clearfix;
-    //     position: relative;
-    //     width: auto;
-    //     top: 0;
-    //     left: 0;
-    //     width: 100%;
-    //     svg {
-    //       width: 62px;
-    //       height: 44px;
-    //       float: right;
-    //     }
-    //     label {
-    //       position: absolute;
-    //       top: 0;
-    //       z-index: 100;
-    //       left: 0;
-    //       width: 100%;
-    //       height: 100%;
-    //     }
-    //     ul#page-list {
-    //       position: relative;
-    //       margin-top: 49px;
-    //       li {
-    //         text-align: center;
-    //         //padding: 3.3% 0;
-    //         a {
-    //           padding: 3% 0;
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
-
-  // @media only screen and (max-width:560px) {
-  //   div.logo-container {
-  //     left: 15px;
-  //     width: 299px;
-  //     height: 139px;
-  //     a img {
-  //       margin-left: 16px;
-  //       margin-top: 14px;
-  //       width: 265px;
-  //     }
-  //   }
-  // }
 
   @media only screen and (max-width:945px) {
     div.nav-container {
@@ -556,48 +365,6 @@ body .wrapper header {
       }
     }
   }
-  // @media only screen and (max-width:380px) {
-  //     div.logo-container {
-  //     position: static;
-  //     margin: 0 auto;
-  //     float: none;
-  //     height: 127px;
-  //     a {
-  //       img {
-  //         width: 285px;
-  //       }
-  //     }
-  //   }
-  // }
-  // @media only screen and (max-width:360px) {
-  //     div.logo-container {
-  //     position: static;
-  //     margin: 0 auto;
-  //     float: none;
-  //     height: 127px;
-  //     width: 302px;
-  //     a {
-  //       img {
-  //         width: 273px;
-  //       }
-  //     }
-  //   }
-  // }
-  // @media only screen and (max-width:330px) {
-  //     div.logo-container {
-  //     position: static;
-  //     margin: 0 auto;
-  //     float: none;
-  //     height: 127px;
-  //     width: 284px;
-  //     a {
-  //       img {
-  //         width: 252px;
-  //         margin-top: 9px;
-  //       }
-  //     }
-  //   }
-  // }
 }
 
 // Take Action Page
@@ -616,8 +383,6 @@ body.page-template-take-action {
         float: right;
         position: static;
         article {
-          //padding: 0px 194px 0px 43px;
-          //text-align: justify;
         }
       }
 
@@ -628,7 +393,6 @@ body.page-template-take-action {
         display: block;
         width: 100%;
         float: none;
-        //background-color: rgb(38, 150, 91);
         ul.categories-list, div.advocacy-search, div.take-action-list {
           margin-right: 965px;
           width: auto;
@@ -666,49 +430,7 @@ body.page-template-take-action {
       }
     }
   }
-        // @media only screen and (max-width:1195px) {
-        //   ul.take-action-list-items {
-        //     //padding: 0 11% 0 9%;
-        //     a li {
-        //       font-size: 22px;
-        //       //padding-left: 0;
-        //     }
-        //   }
-        // }
-        // @media only screen and (max-width:1141px) {
-        //   ul.take-action-list-items {
-        //     //padding: 0 14%;         
-        //     a li {
-        //       text-align: center;
-        //       background: none;
-        //       padding-right: 0;
-        //     }
-        //   }
-        // }
-   
-  // @media only screen and (max-width:1155px) {
-  //   ul.categories-list {
-  //     li {
-  //       line-height: 1.2em;
-  //       padding-top: 10px;
-  //       padding-bottom: 10px;
-  //     }
-  //   }
-  // }
-  // @media only screen and (max-width:1121px) {
-  //   ul.categories-list {
-  //     li {
-  //       text-align: center;
-  //     }
-  //   }
-  //   div.advocacy-search {
-  //     text-align: center;
-  //     padding-left: 40px;
-  //     input.search-input {
-  //       width: 79%;
-  //     }
-  //   }
-  // }
+        
   @media only screen and (max-width:1173px) {
     div.header-image-container {
       img {
@@ -723,7 +445,6 @@ body.page-template-take-action {
       div.advocacy-news-content.mobile {
         float: none;
         padding: 0 0 0 6%;
-        //padding-top: 4%;
         article {
           padding-top: 3px;
           padding-left: 0;
@@ -751,25 +472,10 @@ body.page-template-take-action {
   @media only screen and (max-width:735px) {
     div.page-heading-container {
       text-align: center;
-      //height: 162px;
       div.page-heading {
         padding: 0;
       }
     }
-    // div.advocacy-news-content {
-    //   padding-top: 6%;
-    //   width: 100%;
-    //   article {
-    //     float: none;
-    //     width: 100%;
-    //     // h1 {
-    //     //   padding-top: 20px;
-    //     // }
-    //   }
-    //   aside.about-content-images {
-    //     display: none
-    //   }
-    // }
   }
 }
 
@@ -800,7 +506,6 @@ body.page-template-about-advocacy-news {
           padding-top: 0;
         }
         article {
-          //margin-bottom: 165px;
           padding: 0;
           clear: both;
           p.next-page {
@@ -811,9 +516,6 @@ body.page-template-about-advocacy-news {
     }
   }
   @media only screen and (max-width:1230px) {
-    // div.page-heading {
-    //   padding-left: 41px;
-    // }
   div.about-page-content-container {
       div.about-content {
         article {
@@ -839,11 +541,6 @@ body.page-template-about-advocacy-news {
       }
     }
   }
-  // @media only screen and (max-width:992px) {
-  //   div.page-heading {
-  //     text-align: center;
-  //   }
-  // }
   @media only screen and (max-width:735px) {
     div.page-heading-container {
       text-align: center;
@@ -852,38 +549,6 @@ body.page-template-about-advocacy-news {
       }
     }
   }
-  // @media only screen and (max-width:758px) {
-  //   div.page-heading-container {
-  //     height: 162px;
-  //     div.page-heading {
-  //       text-align: center;
-  //       padding-top: 59px;
-  //     }
-  //   }
-  //   .categories-take-action-sidebar {
-  //     ul.categories-list {
-  //       display: none;
-  //     }
-  //     div.take-action-list {
-  //       display: none;
-  //     }
-  //   }
-  //   div.about-content {
-  //     padding-top: 6%;
-  //     width: 100%;
-  //     article {
-  //       float: none;
-  //       width: 100%;
-  //       padding: 0px 5.5% 0px 5.5%;
-  //       // h1 {
-  //       //   padding-top: 20px;
-  //       // }
-  //     }
-  //     aside.about-content-images {
-  //       display: none
-  //     }
-  //   }
-  // }
 }
 
 // Advocacy
@@ -920,7 +585,6 @@ body.page-template-advocacy, body.tax-advocacy-categories, body.search-results.p
           margin-right: 880px;
           width: auto;
           li {
-            //padding-left: 48px;
             padding-left: 13%;
             padding-right: 13%;
           }
@@ -954,7 +618,6 @@ body.page-template-advocacy, body.tax-advocacy-categories, body.search-results.p
           }
           @media only screen and (max-width:1141px) {
             ul.take-action-list-items {
-              //padding: 0 14%;         
               a li {
                 text-align: center;
                 background: none;
@@ -1003,7 +666,6 @@ body.page-template-advocacy, body.tax-advocacy-categories, body.search-results.p
       div.advocacy-news-content.mobile {
         float: none;
         padding: 0 0 0 6%;
-        //padding-top: 4%;
         h1.current-category {
           display: block;
         }
@@ -1034,28 +696,11 @@ body.page-template-advocacy, body.tax-advocacy-categories, body.search-results.p
   @media only screen and (max-width:735px) {
     div.page-heading-container {
       text-align: center;
-      //height: 162px;
       div.page-heading {
         padding: 0;
       }
     }
   }
-  //   div.advocacy-news-content {
-  //     padding-top: 6%;
-  //     width: 100%;
-  //     article {
-  //       float: none;
-  //       width: 100%;
-  //       padding: 0px 5.5% 0px 5.5%;
-  //       // h1 {
-  //       //   padding-top: 20px;
-  //       // }
-  //     }
-  //     aside.about-content-images {
-  //       display: none
-  //     }
-  //   }
-  // }
 }
 
 // Advocacy Single
@@ -1089,7 +734,6 @@ body.single-advocacy-items {
           margin-right: 934px;
           width: auto;
           li {
-            //padding-left: 48px;
             padding-left: 13%;
             padding-right: 13%;
           }
@@ -1156,7 +800,6 @@ body.single-advocacy-items {
       div.advocacy-news-content.mobile {
         float: none;
         padding: 0 0 0 6%;
-        //padding-top: 4%;
         article {
           padding-top: 3px;
           padding-left: 0;
@@ -1184,56 +827,11 @@ body.single-advocacy-items {
   @media only screen and (max-width:735px) {
     div.page-heading-container {
       text-align: center;
-      //height: 162px;
       div.page-heading {
         padding: 0;
       }
     }
   }
-  // @media only screen and (max-width:735px) {
-  //   div.page-heading-container {
-  //     text-align: center;
-  //     //height: 162px;
-  //     div.page-heading {
-  //       padding: 0;
-  //     }
-  //   }
-  // }
-  // @media only screen and (max-width:758px) {
-  //   div.page-heading-container {
-  //     height: 162px;
-  //     div.page-heading {
-  //       text-align: center;
-  //       padding-top: 59px;
-  //     }
-  //   }
-  //   .categories-take-action-sidebar {
-  //     ul.categories-list {
-  //       display: none;
-  //     }
-  //     div.take-action-list {
-  //       display: none;
-  //     }
-  //     div.advocacy-search {
-  //       display: none;
-  //     }
-  //   }
-  //   div.advocacy-news-content {
-  //     padding-top: 6%;
-  //     width: 100%;
-  //     article {
-  //       float: none;
-  //       width: 100%;
-  //       padding: 0px 5.5% 0px 5.5%;
-  //       // h1 {
-  //       //   padding-top: 20px;
-  //       // }
-  //     }
-  //     aside.about-content-images {
-  //       display: none
-  //     }
-  //   }
-  // }
 }
 
 // News
@@ -1271,7 +869,6 @@ body.page-template-news, body.tax-news-categories, body.search-results.post-type
           margin-right: 928px;
           width: auto;
           li {
-            //padding-left: 48px;
             padding-left: 13%;
             padding-right: 13%;
           }
@@ -1283,17 +880,6 @@ body.page-template-news, body.tax-news-categories, body.search-results.post-type
           }
         }
         div.take-action-list {
-          // @media only screen and (max-width:1141px) {
-          //   h2 {
-          //     font-size: 39px;
-          //   }
-          //   ul.take-action-list-items {
-          //     padding: 0 14% 0 15%;
-          //     a li {
-          //       font-size: 24px;
-          //     }
-          //   }
-          // }
           @media only screen and (max-width:1101px) {
             ul.take-action-list-items {
               a li {
@@ -1359,7 +945,6 @@ body.page-template-news, body.tax-news-categories, body.search-results.post-type
       height: 162px;
       div.page-heading {
         text-align: center;
-        //padding-top: 59px;
       }
     }
     div.advocacy-news-page-content-container {
@@ -1400,16 +985,12 @@ body.page-template-news, body.tax-news-categories, body.search-results.post-type
             margin-bottom: 0;
           }
         }
-        // article:first-of-type {
-        //   margin-top: 122px;
-        // }
       }
     }
   }
   @media only screen and (max-width:600px) {
     div.page-heading-container {
       text-align: center;
-      //height: 162px;
       div.page-heading {
         padding: 0;
       }
@@ -1423,10 +1004,6 @@ body.page-template-news, body.tax-news-categories, body.search-results.post-type
           overflow: hidden;
           figure.news-thumb-container {
             display: none;
-            // float: none;
-            // margin: 0 auto;
-            // height: auto;
-            // width: 334px;
           }
           figure.news-thumb-container-mobile {
             display: block;
@@ -1492,7 +1069,6 @@ body.single-news-items {
           margin-right: 934px;
           width: auto;
           li {
-            //padding-left: 48px;
             padding-left: 13%;
             padding-right: 13%;
           }
@@ -1560,7 +1136,6 @@ body.single-news-items {
       div.advocacy-news-content.mobile {
         float: none;
         padding: 0 0 0 6%;
-        //padding-top: 4%;
         article {
           padding-top: 3px;
           padding-left: 0;
@@ -1588,47 +1163,11 @@ body.single-news-items {
   @media only screen and (max-width:735px) {
     div.page-heading-container {
       text-align: center;
-      //height: 162px;
       div.page-heading {
         padding: 0;
       }
     }
   }
-  // @media only screen and (max-width:758px) {
-  //   div.page-heading-container {
-  //     height: 162px;
-  //     div.page-heading {
-  //       text-align: center;
-  //       padding-top: 59px;
-  //     }
-  //   }
-  //   .categories-take-action-sidebar {
-  //     ul.categories-list {
-  //       display: none;
-  //     }
-  //     div.take-action-list {
-  //       display: none;
-  //     }
-  //     div.advocacy-search {
-  //       display: none;
-  //     }
-  //   }
-  //   div.advocacy-news-content {
-  //     padding-top: 6%;
-  //     width: 100%;
-  //     article {
-  //       float: none;
-  //       width: 100%;
-  //       padding: 0px 5.5% 0px 5.5%;
-  //       // h1 {
-  //       //   padding-top: 20px;
-  //       // }
-  //     }
-  //     aside.about-content-images {
-  //       display: none
-  //     }
-  //   }
-  // }
 }
 
 // 
@@ -1647,8 +1186,6 @@ body.page-template-members, body.tax-member-categories, body.post-type-archive-m
         float: right;
         position: static;
         article {
-          //padding: 0px 194px 0px 43px;
-          //text-align: justify;
         }
         article:last-of-type {
           margin-bottom: 1%;
@@ -1666,7 +1203,6 @@ body.page-template-members, body.tax-member-categories, body.post-type-archive-m
           margin-right: 852px;
           width: auto;
           li {
-            //padding-left: 48px;
             padding-left: 13%;
             padding-right: 13%;
           }
@@ -1680,28 +1216,6 @@ body.page-template-members, body.tax-member-categories, body.post-type-archive-m
       }
     }
   }
-  // div.take-action-list {
-  //   @media only screen and (max-width:991px) {
-  //     h2 {
-  //       font-size: 39px;
-  //     }
-  //     ul.take-action-list-items {
-  //       padding: 0 14% 0 15%;
-  //       a li {
-  //         font-size: 24px;
-  //       }
-  //     }
-  //   }
-  // }
-  //       @media only screen and (max-width:1101px) {
-  //         ul.take-action-list-items {
-  //           padding: 0 11% 0 9%;
-  //           a li {
-  //             font-size: 22px;
-  //             padding-left: 0;
-  //           }
-  //         }
-  //       }
   @media only screen and (max-width:1123px) {
     div.advocacy-news-page-content-container {
       aside.sidebar-members.mobile {
@@ -1717,40 +1231,7 @@ body.page-template-members, body.tax-member-categories, body.post-type-archive-m
       }
     }
   }
-  // @media only screen and (max-width:1068px) {
-  //   div.advocacy-news-page-content-container {
-  //     aside.sidebar-members.mobile {
-  //       ul.take-action-list-items {
-  //         a li {
-  //           font-size: 23px;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-  // @media only screen and (max-width:1155px) {
-  //   ul.categories-list {
-  //     li {
-  //       line-height: 1.2em;
-  //       padding-top: 10px;
-  //       padding-bottom: 10px;
-  //     }
-  //   }
-  // }
-  // @media only screen and (max-width:1121px) {
-  //   ul.categories-list {
-  //     li {
-  //       text-align: center;
-  //     }
-  //   }
-  //   div.members-sidebar-search {
-  //     text-align: center;
-  //     padding-left: 40px;
-  //     input.search-input {
-  //       width: 79%;
-  //     }
-  //   }
-  // }
+  
   @media only screen and (max-width:1068px) {
     div.header-image-container {
       img {
@@ -1782,19 +1263,7 @@ body.page-template-members, body.tax-member-categories, body.post-type-archive-m
       }
     }
   }
-  // @media only screen and (max-width:935px) {
-  //   div.advocacy-news-page-content-container {
-  //     div.advocacy-news-content {
-  //       padding: 0 6% 0 6%;
-  //       width: 100%;
-  //       article {
-  //         width: 100%;
-  //         padding-left: 0;
-  //         clear: both;
-  //       }
-  //     }
-  //   }
-  // }
+
   @media only screen and (max-width:735px) {
     div.page-heading-container {
       text-align: center;
@@ -1804,22 +1273,6 @@ body.page-template-members, body.tax-member-categories, body.post-type-archive-m
       }
     }
   }
-  //   div.advocacy-news-content {
-  //     padding-top: 6%;
-  //     width: 100%;
-  //     article {
-  //       float: none;
-  //       width: 100%;
-  //       padding: 0px 5.5% 0px 5.5%;
-  //       // h1 {
-  //       //   padding-top: 20px;
-  //       // }
-  //     }
-  //     aside.about-content-images {
-  //       display: none
-  //     }
-  //   }
-  // }
 }
 
 // Members Single
@@ -1853,9 +1306,7 @@ body.single-member-items {
           margin-right: 949px;
           width: auto;
           li {
-            //padding-left: 48px;
             padding-left: 13%;
-            //padding-right: 13%;
           }
         }
         ul.take-action-list-items {
@@ -1875,7 +1326,6 @@ body.single-member-items {
                 text-align: center;
                 background: none;
                 padding-right: 0;
-                //font-size: 24px;
               }
             }
           }
@@ -1896,29 +1346,6 @@ body.single-member-items {
       }
     }
   }
-  // @media only screen and (max-width:1155px) {
-  //   ul.categories-list {
-  //     li {
-  //       line-height: 1.2em;
-  //       padding-top: 10px;
-  //       padding-bottom: 10px;
-  //     }
-  //   }
-  // }
-  // @media only screen and (max-width:1121px) {
-  //   ul.categories-list {
-  //     li {
-  //       text-align: center;
-  //     }
-  //   }
-  //   div.members-sidebar-search {
-  //     text-align: center;
-  //     padding-left: 40px;
-  //     input.search-input {
-  //       width: 79%;
-  //     }
-  //   }
-  // }
   @media only screen and (max-width:1178px) {
     div.header-image-container {
       img {
@@ -1934,7 +1361,6 @@ body.single-member-items {
         float: none;
         width: 100%;
         padding: 0 6% 0 6%;
-        //padding-top: 4%;
         article {
           padding-top: 3px;
           padding-left: 0;
@@ -1949,7 +1375,6 @@ body.single-member-items {
   @media only screen and (max-width:1025px) {
     div.page-heading-container {
       text-align: center;
-      //height: 162px;
       div.page-heading {
         padding: 0;
       }
@@ -1966,38 +1391,11 @@ body.single-member-items {
       }
     }
   }
-
-  //   div.advocacy-news-content {
-  //     padding-top: 6%;
-  //     width: 100%;
-  //     article {
-  //       float: none;
-  //       width: 100%;
-  //       padding: 0px 5.5% 0px 5.5%;
-  //       // h1 {
-  //       //   padding-top: 20px;
-  //       // }
-  //     }
-  //     aside.about-content-images {
-  //       display: none
-  //     }
-  //   }
-  // }
 }
 
 // Homepage intro
 
 body.home {
-  // @media only screen and (max-width:1365px) {
-  //   div.home-intro {
-  //     padding-top: 3%;
-  //   }
-  // }
-  // @media only screen and (max-width:1252px) {
-  //   div.home-intro {
-  //     padding-top: 2%;
-  //   }
-  // }
   @media only screen and (max-width:1150px) {
     div.home-intro-call-to-action-container {
       font-size: 97%;
@@ -2008,11 +1406,6 @@ body.home {
       font-size: 95%;
     }
   }
-  // @media only screen and (max-width:945px) {
-  //   div.home-intro-call-to-action-container {
-  //     font-size: 93%;
-  //   }
-  // }
   @media only screen and (max-width:915px) {
     div.home-intro-call-to-action-container {
       font-size: 92%;
@@ -2080,22 +1473,6 @@ body.home {
       }
     }
   }
-
-  // @media only screen and (max-width:850px) {
-  //   div.home-intro-call-to-action-container {
-  //     font-size: 91%;
-  //   }
-  // }
-  // @media only screen and (max-width:750px) {
-  //   div.home-intro-call-to-action-container {
-  //     font-size: 89%;
-  //   }
-  // }
-  // @media only screen and (max-width:650px) {
-  //   div.home-intro-call-to-action-container {
-  //     font-size: 88%;
-  //   }
-  // }
 }
 
 // Homepage Articles
@@ -2210,7 +1587,6 @@ body.page-template-join {
     }
     div.page-heading-container {
       text-align: center;
-      //height: 162px;
       div.page-heading {
         padding: 0;
       }

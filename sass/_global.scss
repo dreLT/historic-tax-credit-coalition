@@ -1,5 +1,4 @@
 div.advocacy-news-page-content-container {
-  //background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) 23.83%, #f0efee 23.83%);
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 344px, #f0efee 1px);
   @include clearfix;
   position: relative;
@@ -36,12 +35,7 @@ div.advocacy-news-page-content-container {
 .header-image-container {
   position: absolute;
   top: 124px;
-  //z-index: -1;
   height: 742px;
-  // img.header-image {
-  //   height: 100%
-  // }
-  //background-image: url("img/about-placeholder.jpg");
   &:before {
     display:block;
     content:'';
@@ -98,7 +92,6 @@ body.page-template-take-action .page-heading {
       width: 63%;
       &:focus {
         border: 1px solid #E06833;
-        //box-shadow: 0 0 1px $htcc-orange;
       }
     }
     button {
@@ -150,7 +143,6 @@ body.page-template-take-action .page-heading {
       }
       a {
         color: black;
-        // padding-right: 30px;
       }
     }
     li.current-cat, li.current-menu-item {
@@ -165,8 +157,6 @@ body.page-template-take-action .page-heading {
 
   .take-action-list {
     background-color: $htcc-green;
-    //margin-right: 1093px;
-    //height: 176.9vh;
     h2.take-action-list-heading {
       font-size: 41px;
       font-weight: 900;
@@ -209,8 +199,6 @@ body.page-template-take-action .page-heading {
 
 .pagination-links {
   font-size: 28px;
-  // margin-top: 29px;
-  // margin-bottom: 26px;
   margin: 32px auto;
   text-align: center;
   .page-numbers {
@@ -230,7 +218,6 @@ article.hentry {
   }
   p:first-of-type {
     margin-top: 17px;
-    //margin-left: 300px;
   }
   ul li {
     line-height: 1.64em;
@@ -300,7 +287,6 @@ div.search-results {
     font-size: 36px;
   }
   article h2:first-child {
-    //margin-top: 22px;
   }
 }
 
@@ -324,10 +310,3 @@ h1.current-category {
   font-size: 1.75em;
   margin-bottom: 0;
 }
-
-
-// Highlight Current Page on Sidebar Navigation //
-
-// body.page-id-14 aside ul.category-list li:first-child {
-//   background-color: rgba(252, 250, 249, 0.6);
-// }

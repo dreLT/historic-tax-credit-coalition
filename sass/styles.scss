@@ -1,4 +1,7 @@
-@import "mixins";
+// Browser styles set by HTML5Blank theme and some general and global styles I set
+// Would like to organize and refactor
+
+@import "variables";
 @import "grid";
 @import "homepage";
 @import "about-page";
@@ -14,8 +17,7 @@
 @import "global";
 @import "wordpress";
 @import "navs";
-
-// Media Queries Partial is temporarily at bottom of this sheet
+// Media Queries partials are temporarily at bottom of this sheet
 
 /*
   Theme Name: HTML5 Blank
@@ -47,24 +49,10 @@
 }
 /* html element 62.5% font-size for REM use */
 
-// html, body {
-//   height: 100%;
-// }
-
 html, body {
-  //height: 100%;
   background-repeat: no-repeat;
 }
 
-html {
-  //font-size: 19px;
-  //background: linear-gradient(to right, #26965A, #26965A 344px, #f0efee 267px);
-// max-width: 1437px;
-// margin: 0 auto;
-// background-repeat: no-repeat;
-  //background-color: $site-background-offwhite;
-  //background: linear-gradient(to right, #26965A, #26965A 23.825%, #f0efee 23.825%);
-}
 body {
   font-family: 'Lato', sans-serif;
   color:#000;
@@ -72,10 +60,9 @@ body {
   margin: 0 auto;
   font-size: 100%;
   font-weight: normal;
-  //background: linear-gradient(to right, #26965A, #26965A 23.83%, #f0efee 23.83%);
 }
 
-// Background Gradient to make columns appear equal length
+// Background Gradient to make columns appear equal length, sitewide
 
 body.page-id-14, 
 body.tax-news-categories, 
@@ -101,10 +88,6 @@ body.single {
   }
 }
 
-// body.page-id-16 {
-//   background: linear-gradient(to right, #fff 591px, #f0efee 345px);
-// }
-
 /* clear */
 .clear:before,
 .clear:after {
@@ -128,7 +111,6 @@ body.single {
 }
 
 img {
-  //max-width:100%;
   vertical-align:bottom;
 }
 a {
@@ -158,8 +140,6 @@ a:active {
 
 /* wrapper */
 .wrapper {
-  //width:100%;
-  //margin:0 auto;
   position:relative;
 }
 /* header */
@@ -214,20 +194,16 @@ margin-top: 8px;
     p {
       font-size: 1.1875em;
       line-height: 1.5em;
-      //padding-left: 27px;
       margin-bottom: 0.625em;
     }
     a {
       color: #fe7005;
-      //margin-top: 1.6em;
       display: inline-block;
       font-weight: 700;
     }
   }
   .footer-twitter-column, .footer-join-email-list-column {
-    // .footer-column-content {
       border-right: 1px solid #313A35;
-    // }
   }
   .footer-twitter-column {
     padding-right: 3.5%;
@@ -273,30 +249,6 @@ margin-top: 8px;
         }
       }
     }
-    // div#twitter-feed-HistoricCredit {
-    //   div.fts-tweeter-wrap {
-    //     img.twitter-image {
-    //       margin: 0;
-    //     }
-    //     div.right {
-    //       padding-left: 64px;
-    //       div:first-of-type {
-    //         font-size: 1.0625em;
-    //       }
-    //       span.time {
-    //         display: inline-block;
-    //         margin: 0.1875em 0 0.5em 0;
-    //         font-size: 1.14285714285714em;
-    //       }
-    //       a {
-    //         color: $htcc-orange;
-    //       }
-    //     }
-    //   }
-    //   div.fts-tweeter-wrap:nth-child(n+3) {
-    //     display: none;
-    //   }
-    // }
   }
   .footer-join-email-list-column form {
     p {
@@ -552,7 +504,7 @@ a img.aligncenter {
   }
 }
 
-@import "media-queries-typo";
+@import "media-queries-typography";
 @import "media-queries-sidebar";
 @import "media-queries-mobile-nav";
 @import "media-queries";

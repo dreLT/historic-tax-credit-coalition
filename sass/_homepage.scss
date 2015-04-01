@@ -13,7 +13,6 @@ body .wrapper header {
     top: 0;
     &:hover {
       color: #FFF;
-      //background-color: #D34303;
     }
     a.member-login {
       color: $white-text-on-orange;
@@ -33,15 +32,12 @@ body .wrapper header {
     width: 72.2%;
     ul.first-row {
       margin-right: 22px;
-      // margin-top: 41px;
-      // margin-bottom: 14px;
       margin-right: 16px;
     }
     ul.second-row {
       margin-right: 0;
     }
     ul {
-      //float: left;
       display: table;
       margin-bottom: 0;
       li:last-child {
@@ -67,33 +63,6 @@ body .wrapper header {
     display: none;
   }
 }
-//       a:last-of-type {
-//         display: none;
-//       }
-//       ul {
-//         color: black;
-//         display: none;
-//       }
-//       &:target {
-//         ul {
-//           display: block;
-//         }
-//         a:first-of-type {
-//           display: none;
-//         }
-//         a:last-of-type {
-//           display: block;
-//         }
-//       }
-//       // ul:hover li {
-//       //   display: block;
-//       // }
-//     }
-//   }
-//   nav.two-line-nav {
-//     display: none;
-//   }
-// }
 
 // Slider //
 
@@ -158,16 +127,8 @@ body .wrapper header {
   }
 }
 
-// Intro //
+// Intro
 
-// .home-caption {
-//   background-color: #fff;
-//   padding: 17px 0 18px 0px;;
-//   //padding: 27px 57px 35px 57px;
-//   -webkit-box-shadow: 0px 1px 47px 4px rgba(0,0,0,0.1);
-//   -moz-box-shadow: 0px 1px 47px 4px rgba(0,0,0,0.1);
-//   box-shadow: 0px 1px 47px 4px rgba(0, 0, 0, 0.1);
-//   margin-bottom: 20px;
 div.home-intro-slider-container {
   background-color: #FFF;
   margin-bottom: 0;
@@ -180,14 +141,8 @@ div.home-intro-slider-container {
 }
 
 div.home-intro {
-    //padding: 48px 18px 0px 36px;
-    //padding-top: 4%;
-    //padding-right: 14px;
     div.home-intro-text {
-      //font-size: 100%;
-      //margin-bottom: 18px;
       p {
-        //margin-right: 631px;
         font-size: 1.4em;
         line-height: 1.6;
         text-align: justify;
@@ -197,19 +152,14 @@ div.home-intro {
   }
  
 div.home-call-to-action-text {
-  // padding-left: 3%;
-  // margin-top: 2.5%;
   p {
     text-align: justify;
     font-size: 1.4em;
     line-height: 1.6;
     margin: 0;
     margin-bottom: 24px;
-    //margin-right: 622px;
-    //width: 770px;
   }
   a.home-call-to-action-button {
-    //background-color: $htcc-green;
     background-image: linear-gradient(to top, #1D7949 2%, #26965B);
     color: #fff;
     margin: 0 auto;

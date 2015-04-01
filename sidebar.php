@@ -1,3 +1,4 @@
+<!-- Sidebar template built into the starter theme - not in use -->
 <!-- sidebar -->
 <aside class="sidebar" role="complementary">
 

@@ -9,7 +9,6 @@ div.take-action-page-container {
 body.page-template-take-action {
   ul.take-action-list-items {
     margin: 0;
-    //padding-top: 27px;
     padding-left: 0;
     a {
       display: block;
@@ -79,17 +78,11 @@ ul.take-action-nav {
   }
 }
 
-// div.take-action-list {
-//   margin-right: 1093px;
-// }
-
 div.take-action-content-container {
   background-color: $site-background-offwhite;
   padding-top: 2px;
-  // padding-top: 6px;
   article {
     padding: 0px 194px 0px 23px;
-    //text-align: justify;
     h2 {
       font-size: 28px;
       margin-top: 27px;
@@ -108,7 +101,6 @@ div.take-action-content-container {
       margin-top: 13px;
       a {
         color: $htcc-orange;
-        //font-style: italic;
       }
     }
   }

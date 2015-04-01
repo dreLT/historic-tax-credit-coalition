@@ -1,14 +1,3 @@
-// Dropdown Nav - Advocacy Pages
-
-body.page-template-about-advocacy-news, body.page-template-advocacy, body.tax-advocacy-categories, body.search-results.post-type-archive-advocacy-items, body.single-advocacy-items {
-  div.mobile-content-nav, div.mobile-take-action-button { //div.mobile-search-form { // Uncomment when ready to use
-    // @media only screen and (max-width:1149px) {
-    //   display: block;
-    // }
-  }
-}
-
-
 // Dropdown Nav - Take Action Page
 
 body.page-template-take-action {
@@ -22,14 +11,9 @@ body.page-template-take-action {
       }
       @media only screen and (max-width:735px) {
         margin-top: 5%;
-        //margin-bottom: 3%;
-        //width: 375px;
         margin-left: auto;
         margin-right: auto;
         float: none;
-        // div#current-page {
-        //   padding-left: 14%;
-        // }
       }
       @media only screen and (max-width:686px) {
         div.down-arrow {
@@ -56,15 +40,13 @@ body.page-template-take-action {
         font-size: 0.9em;
         width: 95%;
         div.down-arrow {
-          //margin-top: 14px;
-          //font-size: 18px;
         }
       }
     }
   }
 }
 
-// Dropdown Nav - Advocacy Main / Archive Pages
+// Dropdown Nav - Advocacy main and archive pages
 
 body.page-template-advocacy, body.tax-advocacy-categories, body.search.post-type-archive-advocacy-items {
   div.mobile-take-action-nav-container {
@@ -99,7 +81,7 @@ body.page-template-advocacy, body.tax-advocacy-categories, body.search.post-type
   }
 }
 
-// Dropdown Nav - Advocacy Single
+// Dropdown Nav - Advocacy single post pages
 
 body.single-advocacy-items {
   div.mobile-take-action-nav-container {
@@ -139,7 +121,7 @@ body.single-advocacy-items {
   }
 }
 
-// Dropdown Nav - News Pages
+// Dropdown Nav - News main page
 
 body.page-template-news, body.tax-news-categories, body.search.post-type-archive-news-items, body.single-news-items {
   div.mobile-take-action-nav-container {
@@ -174,95 +156,7 @@ body.page-template-news, body.tax-news-categories, body.search.post-type-archive
   }
 }
 
-//     @media only screen and (max-width:1149px) {
-//       display: block;
-//       float: right;
-//       background-color: #26965B;
-//       font-size: 1.4375em;
-//       text-align: center;
-//       width: 30%;
-//       margin-bottom: 1%;
-//       height: 58px;
-//       margin-top: 4%;
-//       padding-top: 1px;
-//       padding-left: 17px;
-//       a {
-//         color: #fff;
-//         font-size: 1.3em;
-//         display: inline-block;
-//         padding-top: 0px;
-//         span {
-//           margin-left: 10px;
-//           font-size: 40px;
-//           display: inline-block;
-//         }
-//       }
-//     }
-//     @media only screen and (max-width:910px) {
-//       a {
-//         font-size: 1.25em;
-//       }
-//     }
-//     @media only screen and (max-width:817px) {
-//       padding-left: 9px;
-//       a {
-//         font-size: 1.22em;
-//       }
-//     }
-//     @media only screen and (max-width:723px) {
-//       padding-left: 7px;
-//       a {
-//         font-size: 1.15em;
-//       }
-//     }
-//     @media only screen and (max-width:700px) {
-//       padding-top: 0;
-//       a {
-//         font-size: 1.05em;
-//       }
-//     }
-//     @media only screen and (max-width:600px) {
-//       float: none;
-//       font-size: 1.595em;
-//       width: 375px;
-//       margin: 0 auto;
-//       padding-top: 12px;
-//       a {
-//         span {
-//           display: none;
-//         }
-//       }
-//     }
-//     @media only screen and (max-width:426px) {
-//       width: 95%;
-//     }
-//   }
-
-//   div.mobile-content-nav {
-//     @media only screen and (max-width:1149px) {
-//       margin-top: 4%;
-//       margin-bottom: 1%;
-//       float: left;
-//       display: block;
-//     }
-//     @media only screen and (max-width:600px) {
-//       margin-top: 5%;
-//       margin-bottom: 3%;
-//       width: 375px;
-//       margin-left: auto;
-//       margin-right: auto;
-//       float: none;
-//       div#current-page {
-//         padding-left: 14%;
-//       }
-//     }
-//     @media only screen and (max-width:426px) {
-//       width: 95%;
-//     }
-//   }
-// }
-
-//News Single
+// Dropdown Nav - News single post pages
 
 body.single-news-items {
   div.mobile-take-action-nav-container {
@@ -320,106 +214,6 @@ body.page-template-about-advocacy-news {
     }
   }
 }
-//   div.about-page-content-container div.about-content div.mobile-take-action-button {
-//     @media only screen and (max-width:1290px) {
-//       display: block;
-//       float: left;
-//       margin-left: 359px;
-//       background-color: #26965B;
-//       font-size: 1.4375em;
-//       text-align: center;
-//       width: 30%;
-//       margin-bottom: 1%;
-//       height: 58px;
-//       margin-top: 4%;
-//       padding-top: 1px;
-//       padding-left: 17px;
-//       a {
-//         color: #fff;
-//         font-size: 1.25em;
-//         display: inline-block;
-//         padding-top: 0px;
-//         span {
-//           margin-left: 10px;
-//           font-size: 40px;
-//           display: inline-block;
-//         }
-//       }
-//     }
-//     // @media only screen and (max-width:780px) {
-//     //   a {
-//     //     font-size: 1.25em;
-//     //   }
-//     // }
-//     @media only screen and (max-width:1230px) {
-//       margin-left: 140px
-//     }
-//     @media only screen and (max-width:992px) {
-//       float: right;
-//       margin-left: 0;
-//       padding-left: 9px;
-//       a {
-//         font-size: 1.22em;
-//       }
-//     }
-//     @media only screen and (max-width:750px) {
-//       padding-left: 7px;
-//       a {
-//         font-size: 1.19em;
-//       }
-//     }
-//     @media only screen and (max-width:735px) {
-//       float: none;
-//       font-size: 1.595em;
-//       width: 375px;
-//       margin: 0 auto;
-//       padding-top: 12px;
-//       a {
-//         span {
-//           display: none;
-//         }
-//       }
-//     }
-//     @media only screen and (max-width:426px) {
-//       width: 95%;
-//     }
-//   }
-//   div.mobile-content-nav {
-//     @media only screen and (max-width:1290px) {
-//       margin-top: 4%;
-//       margin-bottom: 1%;
-//       float: left;
-//       display: block;
-//     }
-//     @media only screen and (max-width:735px) {
-//       margin-top: 5%;
-//       margin-bottom: 3%;
-//       width: 375px;
-//       margin-left: auto;
-//       margin-right: auto;
-//       float: none;
-//       div#current-page {
-//         padding-left: 14%;
-//       }
-//     }
-//     @media only screen and (max-width:426px) {
-//       width: 95%;
-//     }
-//     @media only screen and (max-width:400px) {
-//       div.down-arrow {
-//         margin-top: 13px;
-//         font-size: 20px;
-//       }
-//     }
-//     @media only screen and (max-width:380px) {
-//       font-size: 1.4em;
-//       div.down-arrow {
-//         margin-top: 14px;
-//         font-size: 18px;
-//       }
-//     }
-//   }
-// }
 
 // Take Action Button
 
@@ -431,7 +225,7 @@ div.mobile-take-action-button {
   }
 }
 
-// Search Form
+// Sidebar search form
 
 div.mobile-search-form {
   @media only screen and (max-width:1149px) {
@@ -448,7 +242,7 @@ div.mobile-search-form {
   }
 }
 
-// Dropdown Nav - Members Main / Archive Pages
+// Dropdown Nav - Members main and archive pages
 
 body.page-template-members, body.tax-member-categories, body.post-type-archive-member-items {
   div.mobile-take-action-nav-container {
@@ -484,7 +278,7 @@ body.page-template-members, body.tax-member-categories, body.post-type-archive-m
   }
 }
 
-// Dropdown Nav - Members Single
+// Dropdown Nav - Members single post pages
 
 body.single-member-items {
   div.mobile-take-action-nav-container {

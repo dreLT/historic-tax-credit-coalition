@@ -36,7 +36,7 @@ ul.form-row {
 }    
 
 
-// Join Form
+// Join Page Form
 
 div#wpcf7-f93-p16-o1 form, div#wpcf7-f93-p16-o2 form {
   ul.form-row li.form-column {
@@ -116,25 +116,7 @@ div#wpcf7-f93-p16-o1 form, div#wpcf7-f93-p16-o2 form {
       font-size: 1.2em;
     }
   }
-
-    // li:nth-of-type(2) {
-    //   height: 160px;
-    //   span.member-option2 span {
-    //     display: inline-block;
-    //     input {
-    //       display: block;
-    //       margin-right: 20px;
-    //       float: left;
-    //       margin-bottom: 104px;
-    //       margin-top: 31px;
-    //     }
-    //     span.wpcf7-list-item-label {
-    //       display: block;
-    //       padding-right: 70px;
-    //     }
-    //   }
-    // }
-  }
+}
 
 // Contact Form
 
@@ -153,82 +135,3 @@ div#wpcf7-f129-p18-o1 {
     padding-right: 0;
   }
 }
-
-
-//   p:nth-of-type(2) {
-//     display: inline-block;
-//     width: 40%;
-//     margin-right: 28px;
-//   }
-//   p:nth-of-type(3) {
-//     display: inline-block;
-//     width: 11%
-//   }
-//   p {
-//     display: inline-block;
-//     margin: 0;
-//     label {
-//       font-weight: bold;
-//       display: inline-block;
-//       margin-bottom: 15px;
-//       span {
-//         color: #F51705;
-//         input {
-//           width: 100%;
-//         }
-//       }
-//     }
-//     span.address {
-//       display: inline-block;
-//       input {
-//         width: 100%;
-//       }
-//     }
-//     span.suite {
-//       display: inline-block;
-//       input {
-//         width: 100%;
-//       }
-//     }
-//   }
-// }
-
-// // .categories-take-action-sidebar {
-// //   div.advocacy-search {
-// //     padding: 13px 0;
-// //     line-height: 2.4em;
-// //     input.search-input {
-// //       height: 33px;
-// //       padding: 0 10px;
-// //       width: 63%;
-// //       &:focus {
-// //         border: 1px solid #E06833;
-// //         //box-shadow: 0 0 1px $htcc-orange;
-// //       }
-// //     }
-// //     button {
-// //       margin-right: 4px;
-// //       width: 90px;
-// //       height: 30px;
-// //       color: #fff;
-// //       background-color: #ea520f;
-// //       border: none;  
-// //     }
-// //     label {
-// //       padding-right: 10px;
-// //     }
-// //     input.date-range-input {
-// //       width: 114px;
-// //       height: 39px;
-// //     }
-// //   }
-// //   div.advocacy-date-range {
-// //     padding-top: 21px;
-// //     font-size: 24px;
-// //     font-weight: bold;
-// //   }
-// //   div.advocacy-search {
-// //     padding-top: 0;
-// //     padding-right: 23px;
-// //     background-color: rgba(234, 230, 224, 0.82);
-// //   }

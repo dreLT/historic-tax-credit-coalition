@@ -1,3 +1,4 @@
+<!-- Not in use -->
 <?php /* Template Name: Demo Page Template */ get_header(); ?>
 
 	<main role="main">

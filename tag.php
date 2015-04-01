@@ -1,3 +1,5 @@
+<!-- Template for tag archive - not in use -->
+
 <?php get_header(); ?>
 
 	<main role="main">

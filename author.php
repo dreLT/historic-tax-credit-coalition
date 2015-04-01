@@ -1,3 +1,5 @@
+<!-- Author Template file - not currently being used by this theme -->
+
 <?php get_header(); ?>
 
 	<main role="main">
